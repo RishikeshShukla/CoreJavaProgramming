@@ -1,6 +1,6 @@
 package interview.questions.tree;
 
-public class MaxElementInTree {
+public class MaxandMinElementInTree {
 	public static void main(String[] args) {
 
 		BinaryTree tree = new BinaryTree();

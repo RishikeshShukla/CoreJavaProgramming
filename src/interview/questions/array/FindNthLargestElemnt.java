@@ -10,13 +10,13 @@ public class FindNthLargestElemnt {
 		System.out.println(findKthLargest(arr,2));
 	}
 
-	public static int findKthLargest(int[] nums, int k) {
+	/*public static int findKthLargest(int[] nums, int k) {
 		Arrays.sort(nums);
 		return nums[nums.length - k];
-	}
+	}*/
 	
 	
-	/*public static int findKthLargest(int[] nums, int k) {
+	public static int findKthLargest(int[] nums, int k) {
 		if (k < 1 || nums == null) {
 			return 0;
 		}
@@ -59,9 +59,9 @@ public class FindNthLargestElemnt {
 		}
 	}
 	 
-	public void swap(int[] nums, int n1, int n2) {
+	public static void swap(int[] nums, int n1, int n2) {
 		int tmp = nums[n1];
 		nums[n1] = nums[n2];
 		nums[n2] = tmp;
-	}*/
+	}
 }
